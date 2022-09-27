@@ -1,0 +1,10 @@
+header {
+background-color: rgb(10, 10, 153);
+color: white;
+text-align: center;
+}
+
+.btn {
+ margin-top: 20px;
+    background-color: dodgerblue;
+}
