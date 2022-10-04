@@ -8,3 +8,9 @@ text-align: center;
  margin-top: 20px;
     background-color: dodgerblue;
 }
+
+.five-day-forecast {
+    display: flex;
+    background-color: #1d2555;
+    color: white;
+}
