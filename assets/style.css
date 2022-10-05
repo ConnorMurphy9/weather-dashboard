@@ -1,5 +1,5 @@
 header {
-background-color: rgb(10, 10, 153);
+
 color: white;
 text-align: center;
 }
@@ -13,4 +13,9 @@ text-align: center;
     display: flex;
     background-color: #1d2555;
     color: white;
+    margin-top: 20px;
+}
+
+#bigCard {
+    background: linear-gradient(rgb(10, 70, 138));
 }
