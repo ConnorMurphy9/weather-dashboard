@@ -3,6 +3,7 @@
 
 ## Description
 
+This website was made to give user's a way to search for the weather in any given city.
 
 ## Installation
 
