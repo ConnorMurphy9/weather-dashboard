@@ -18,4 +18,5 @@ text-align: center;
 
 #bigCard {
     background: linear-gradient(rgb(10, 70, 138));
+    /* border-style: solid; */
 }

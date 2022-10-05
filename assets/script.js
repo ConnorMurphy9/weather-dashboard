@@ -21,7 +21,7 @@ city = searchInput.value;
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}&units=imperial`)
     .then(response => response.json())
     .then(function(data){console.log(data);
-    var bigCard = document.querySelectorAll("bigCard");
+    var bigCard = document.getElementById("bigCard");
     bigCard.innerHTML = `<h2 id="cityName">${data.name}</h2><p id="temp">Temp:${data.main.temp}</p><p id="wind">Wind:${data.wind.speed}</p><p id="humidity">Humidity:${data.main.humidity}</p>`;})
    
     // function that does 5-day forecast here using different API, separate function from populateCards
@@ -32,7 +32,7 @@ city = searchInput.value;
 
 function populateCards (data) {
 console.log(data);
-var bigCard = document.querySelectorAll("bigCard");
+var bigCard = document.getElementById("bigCard");
 bigCard.innerHTML = `<h2 id="cityName">${data.name}</h2><p id="temp">Temp:${data.main.temp}</p><p id="wind">Wind:${data.wind.speed}</p><p id="humidity">Humidity:${data.main.humidity}</p>`;}
 // populateCards("Austin");
 // searchCity();
